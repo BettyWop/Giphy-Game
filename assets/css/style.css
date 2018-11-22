@@ -21,5 +21,8 @@ h1{
     text-align: center;
 }
 .input-container{
-    float: center;
+    float: right;
+}
+#gif-container {
+    float: left;
 }
