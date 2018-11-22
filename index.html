@@ -7,18 +7,37 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gif Tastic</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 
 </head>
-
+<h1> Gif Tastic! </h1>
+<br>
 <body>
     <div class="button-container">
-        <button class="gif-button" data-name="dogs">Cats</button>
-        <button class="gif-button" data-name="cats">Dogs</button>
+        <button class="gif-button" data-name="dogs">Dogs</button>
+        <button class="gif-button" data-name="cats">Cats</button>
         <button class="gif-button" data-name="rabbits">Rabbits</button>
-        <button class="gif-button" data-name="donkeys">Donkeys</button>
-        <button class="gif-button" data-name="fishes">Fishes</button>
+        <button class="gif-button" data-name="turtle">Turtle</button>
+        <button class="gif-button" data-name="fish">Fish</button>
+        <button class="gif-button" data-name="shark">Shark</button>
+        <button class="gif-button" data-name="mouse">Mouse</button>
+        <button class="gif-button" data-name="giraffe">Giraffe</button>
+        <button class="gif-button" data-name="puppies">Puppies</button>
+        <button class="gif-button" data-name="monkey">Monkey</button>
+        <button class="gif-button" data-name="snake">Snake</button>
+        <button class="gif-button" data-name="panda">Panda</button>
+    </div>
+    <div id="buttons-view"></div>
+    
+    <div class="input-container">
+      <label for="giphy-input">Search Giphys</label>
+      <input type="text" id="giphy-input">
+      <br>
+      <input id="add-giphy" type="submit" value="Add a Giphy!">
     </div>
     <div id="gif-container"></div>
+
 
     <script src="assets/javascript/giphy.js"></script>
 </body>
